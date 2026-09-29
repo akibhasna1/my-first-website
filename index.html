@@ -1,11 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> my first website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello Woord</h1>
+     <header>
+        <div class="logo">Mywebsite</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about"> about me.</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#projects">projects</a></li>
+            </ul>
+        </nav>
+     </header>
+     <section id="home" class="hero">
+        <h1> Welcome to my website!</h1>
+        <p>I built this website by writing code myself.</p>
+        <button id="clickBtn">Click Here</button>
+        <p id="message"></p>
+     </section>
+     <section id="about" class="about">
+        <h2>About me</h2>
+        <p>I am passionately learning programming and web development.</p>
+</section>
+<section id="projects">
+    <h2>My Projects</h2>
+    <p>Here are some of the projects I have worked on:</p>
+    
+    <div class="project-card">
+        <h3>1. Personal Portfolio Website</h3>
+        <p>A simple and responsive portfolio built using HTML, CSS, and JavaScript.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>2. Python File Handler App</h3>
+        <p>A backend script written in Python for organizing and reading system files.</p>
+    </div>
+</section>
+<section id="skills">
+    <h2>My Skills</h2>
+    <p>HTML, CSS, JavaScript, Python</p>
+</section>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: example@email.com</p>
+</section>
+     <footer>
+        <p>&copy; 2026</p>
+     </footer>
+     <script src="script.js"></script>
 </body>
 </html>
